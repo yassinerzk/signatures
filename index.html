@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Email Signature</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 
+    Email Signature Container 
+    Note: For email signatures, we use tables for layout as they are the most reliable way 
+    to ensure consistency across different email clients (Outlook, Gmail, Apple Mail, etc.).
+    -->
+    <table cellpadding="0" cellspacing="0" border="0" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.4; color: #3c4257; width: 100%; max-width: 600px;">
+        <!-- Name and Title -->
+        <tr>
+            <td style="padding-bottom: 4px;">
+                <strong style="font-size: 16px; color: #1a1f36;">John Doe</strong>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-bottom: 12px; color: #697386;">
+                Head of Marketing
+            </td>
+        </tr>
+
+        <!-- Phone -->
+        <tr>
+            <td style="padding-bottom: 4px;">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td style="vertical-align: middle; padding-right: 8px; width: 20px;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/126/126509.png" width="12" height="12" alt="Phone" style="display: block; border: 0;">
+                        </td>
+                        <td style="vertical-align: middle;">
+                            <a href="tel:+330699913547" style="color: #3c4257; text-decoration: none;">+33 (0)6 99 91 35 47</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Email -->
+        <tr>
+            <td style="padding-bottom: 12px;">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td style="vertical-align: middle; padding-right: 8px; width: 20px;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/542/542638.png" width="12" height="12" alt="Email" style="display: block; border: 0;">
+                        </td>
+                        <td style="vertical-align: middle;">
+                            <a href="mailto:j.doe@stripe.com" style="color: #3c4257; text-decoration: none;">j.doe@stripe.com</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Address -->
+        <tr>
+            <td style="padding-bottom: 4px; color: #697386;">
+                354 Oyster Point Blvd South San Francisco, CA 94080
+            </td>
+        </tr>
+
+        <!-- Website -->
+        <tr>
+            <td style="padding-bottom: 16px;">
+                <a href="https://www.stripe.com" style="color: #5469d4; text-decoration: none; font-weight: bold;">www.stripe.com</a>
+            </td>
+        </tr>
+
+        <!-- Social Icons -->
+        <tr>
+            <td style="padding-bottom: 20px;">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td style="padding-right: 12px;">
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="16" height="16" alt="LinkedIn" style="display: block; border: 0;"></a>
+                        </td>
+                        <td style="padding-right: 12px;">
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" width="16" height="16" alt="Facebook" style="display: block; border: 0;"></a>
+                        </td>
+                        <td style="padding-right: 12px;">
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="16" height="16" alt="Twitter" style="display: block; border: 0;"></a>
+                        </td>
+                        <td style="padding-right: 12px;">
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="16" height="16" alt="Instagram" style="display: block; border: 0;"></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Buttons -->
+        <tr>
+            <td style="padding-bottom: 24px;">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td style="padding-right: 12px;">
+                            <a href="#" style="background-color: #0a2540; color: #ffffff; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 12px; display: inline-block; font-weight: bold; mso-padding-alt: 0;">
+                                <!--[if mso]>
+                                <i style="letter-spacing: 25px; mso-font-width: -100%; mso-text-raise: 30pt;">&nbsp;</i>
+                                <![endif]-->
+                                <span style="mso-text-raise: 15pt;">We are hiring</span>
+                                <!--[if mso]>
+                                <i style="letter-spacing: 25px; mso-font-width: -100%;">&nbsp;</i>
+                                <![endif]-->
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#" style="background-color: #ffffff; color: #0a2540; padding: 7px 15px; border-radius: 20px; text-decoration: none; font-size: 12px; display: inline-block; font-weight: bold; border: 1px solid #0a2540; mso-padding-alt: 0;">
+                                <!--[if mso]>
+                                <i style="letter-spacing: 25px; mso-font-width: -100%; mso-text-raise: 30pt;">&nbsp;</i>
+                                <![endif]-->
+                                <span style="mso-text-raise: 15pt;">Discover our products</span>
+                                <!--[if mso]>
+                                <i style="letter-spacing: 25px; mso-font-width: -100%;">&nbsp;</i>
+                                <![endif]-->
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Banner Image -->
+        <tr>
+            <td>
+                <!-- Placeholder for the banner image. In production, this should be hosted on GitHub or a CDN. -->
+                <img src="https://placehold.co/600x150/0a2540/ffffff?text=The+backbone+for+internet+business&font=lato" width="600" alt="Banner" style="width: 100%; max-width: 600px; height: auto; display: block; border-radius: 4px;">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
